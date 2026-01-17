@@ -20,8 +20,6 @@ And contains one third party single header file library
 - **Custom Dynamic Array (`arraylist.c`)**:  
   Implements a lightweight, resizable array used to manage all balls on the table. This allows fast insertion, deletion, and random access, making **collision detection and physics calculations more efficient** during gameplay.
 
-Then you can:
-
 # Installation:
 
 Before compiling, make sure the following libraries are installed on your system:
@@ -32,21 +30,23 @@ Before compiling, make sure the following libraries are installed on your system
 - **GLU** (OpenGL Utility Library)
 - **C standard libraries** (usually included by default)
 
-Clone the repo
+Then you can:
+
+1. Clone the repo
 
 ` git clone https://github.com/Ray1291/Billiards`
 
-Navigate to the directory
+2. Navigate to the directory
 
 ` cd "YOUR_DIRECTORY"`
 
-compile the program
+3. compile the program
 
 ` gcc main.c arraylist.c drawing.c movement_handling.c collisions.c -o a.out -lglut -lGLEW -lGL -lGLU -lm -g `
 
-Run it
+4. Run it
 
-` ./run.out`
+` ./a.out`
 
 # Usage
 Upon running the program, a window will pop up with the balls setup ready for play. 
