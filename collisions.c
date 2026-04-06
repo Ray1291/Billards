@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
-#include <time.h>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
@@ -41,6 +39,8 @@ int check_collision(float elapsed_time){
     
     if((check_dyanmic_collisions()) == RESET)
         return RESET;
+
+    return status;
 }
 
 int update_ball_data(float delta_time){

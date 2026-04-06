@@ -256,8 +256,8 @@ void place_pockets(){
                 pocket_x = POOL_TABLE_X;
                 pocket_y = POOL_TABLE_Y + (POOL_TABLE_HEIGHT / 2);
 
-                pocket_x = GAME_WINDOW_WIDTH / 2;
-                pocket_y = GAME_WINDOW_HEIGHT / 2;
+                // pocket_x = GAME_WINDOW_WIDTH / 2;
+                // pocket_y = GAME_WINDOW_HEIGHT / 2;
                 break;  
             default:
                 printf("ERROR IN PLACING POCKETS\n");
